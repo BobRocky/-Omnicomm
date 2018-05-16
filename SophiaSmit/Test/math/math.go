@@ -1,4 +1,4 @@
-package math
+package ij
 
 func Average(xs []float64) float64 {
 	total := float64(0)
