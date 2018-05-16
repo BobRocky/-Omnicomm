@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "-Omnicomm/SophiaSmit/Test/math"
+import "github.com/BobRocky/omnicomm/SophiaSmit/Test/math"
 
 func main() {
 	xs := []float64{1, 2, 3, 4}
