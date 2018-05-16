@@ -1,10 +1,10 @@
 package main
 
 import "fmt"
-import "github.com/BobRocky/omnicomm/SophiaSmit/Test/math"
+import x "github.com/BobRocky/omnicomm/SophiaSmit/Test/math"
 
 func main() {
 	xs := []float64{1, 2, 3, 4}
-	avg := math.Average(xs)
+	avg := x.Average(xs)
 	fmt.Println(avg)
 }
