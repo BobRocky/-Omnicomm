@@ -1,11 +1,27 @@
 package omni
 
-func SignIn() string {
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
+
+func Scan1() string {
+	in := bufio.NewScanner(os.Stdin)
+	in.Scan()
+	if err := in.Err(); err != nil {
+		fmt.Fprintln(os.Stderr, "Ошибка ввода:", err)
+	}
+	return in.Text()
+}
+
+func SignIn() bool {
 	var log string
-	log = Scan1()
-	pass = Scan1()
 	var pass string
 	var status bool
+	log = Scan1()
+	pass = Scan1()
+
 	login := "Stas"
 	password := "123"
 	//error := "Неверный логин или пароль\n"
@@ -16,5 +32,5 @@ func SignIn() string {
 		status = false
 	}
 
-	return log
+	return status
 }
