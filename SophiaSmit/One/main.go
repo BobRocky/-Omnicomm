@@ -4,11 +4,13 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+
+	"github.com/BobRocky/omnicomm/SophiaSmit/One/omni"
 )
 
 var log string
 var pass string
-var a bool
+var a string
 
 func Scan1() string {
 	in := bufio.NewScanner(os.Stdin)
@@ -23,6 +25,6 @@ func main() {
 
 	log = Scan1()
 	pass = Scan1()
-	a = SignIn()
+	a = omni.SignIn()
 	fmt.Println(a)
 }
