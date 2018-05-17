@@ -2,6 +2,8 @@ package omni
 
 func SignIn() string {
 	var log string
+	log = Scan1()
+	//pass = Scan1()
 	/*	var pass string
 		var status bool
 		login := "Stas"

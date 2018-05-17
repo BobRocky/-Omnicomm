@@ -23,8 +23,6 @@ func Scan1() string {
 
 func main() {
 
-	log = Scan1()
-	pass = Scan1()
 	a = omni.SignIn()
 	fmt.Println(a)
 }
