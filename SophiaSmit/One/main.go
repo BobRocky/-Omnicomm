@@ -3,8 +3,12 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/BobRocky/omnicomm/SophiaSmit/One/omni"
+	"os"
 )
+
+var log string
+var pass string
+var a bool
 
 func Scan1() string {
 	in := bufio.NewScanner(os.Stdin)
@@ -14,13 +18,11 @@ func Scan1() string {
 	}
 	return in.Text()
 }
+
 func main() {
-	var log string
-	var pass string
 
 	log = Scan1()
 	pass = Scan1()
-	proverka := SignIn()
-	fmt.Print(proverka)
-
+	a = SignIn()
+	fmt.Println(a)
 }
