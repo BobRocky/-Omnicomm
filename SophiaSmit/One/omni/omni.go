@@ -19,7 +19,9 @@ func SignIn() bool {
 	var log string
 	var pass string
 	var status bool
+	fmt.Println("Введите логин")
 	log = Scan1()
+	fmt.Println("Введите пароль")
 	pass = Scan1()
 
 	login := "Stas"
@@ -27,7 +29,7 @@ func SignIn() bool {
 	//error := "Неверный логин или пароль\n"
 	if log == login && pass == password {
 		status = true
-		//dateTimeEnd := 10
+
 	} else {
 		status = false
 	}
