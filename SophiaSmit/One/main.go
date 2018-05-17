@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"os"
+	"github.com/BobRocky/omnicomm/SophiaSmit/One/omni"
 )
 
 func Scan1() string {
