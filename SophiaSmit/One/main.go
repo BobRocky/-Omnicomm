@@ -10,7 +10,7 @@ import (
 
 var log string
 var pass string
-var a bool
+var a string
 
 func Scan1() string {
 	in := bufio.NewScanner(os.Stdin)

@@ -1,7 +1,7 @@
 package omni
 
-func SignIn() bool {
-	var log bool
+func SignIn() string {
+	var log string
 	/*	var pass string
 		var status bool
 		login := "Stas"
