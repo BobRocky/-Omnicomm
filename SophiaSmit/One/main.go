@@ -18,6 +18,6 @@ func main() {
 	} else {
 		dateTimeEnd := 10
 		fmt.Println(a)
-		fmt.Print(dateTimeEnd)
+		fmt.Print("DateTimeEnd = ", dateTimeEnd)
 	}
 }
